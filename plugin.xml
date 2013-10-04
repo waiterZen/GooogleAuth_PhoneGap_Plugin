@@ -3,7 +3,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
            id="com.waiter.phonegap.oauth2Plugins"
       version="0.1.0">
-    <name>Calendar</name>
+    <name>googleAuth</name>
     <description> googleAuth Plugin</description>
     <license>MIT</license>
     <keywords>phonegap,oauth2,google</keywords>
@@ -21,6 +21,6 @@
             </feature>
         </config-file>
  
-        <source-file src="src/android/Calendar.java" target-dir="src/com/waiter/phonegap/oauth2Plugins"/>      
+        <source-file src="src/android/googleAuth.java" target-dir="src/com/waiter/phonegap/oauth2Plugins"/>      
      </platform>          
 </plugin>
